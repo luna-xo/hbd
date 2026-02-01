@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0f19" />
+    <title>Sourabh’s Timeline</title>
+    <meta
+      name="description"
+      content="Scroll through the timeline from childhood to today."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=DM+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./timeline.css" />
+  </head>
+  <body>
+    <a class="skip" href="#timeline">Skip to timeline</a>
+
+    <header class="bar">
+      <div class="bar__inner">
+        <div class="bar__left">
+          <a class="back" href="./index.html" title="Back to birthday page">
+            ← Back
+          </a>
+          <div class="title">
+            <div class="title__kicker">Then → Now</div>
+            <div class="title__main" id="tlName">Sourabh’s timeline</div>
+          </div>
+        </div>
+
+        <div class="bar__right"></div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="intro">
+        <h1 class="h1">Scroll down to see the timeline</h1>
+        <p class="muted">
+          Scroll down to see each moment.
+        </p>
+      </section>
+
+      <section id="timeline" class="rail" aria-label="Age timeline">
+        <!-- Replace these placeholders with <img class="frame__img" src="..."> -->
+        <article class="frame">
+          <img
+            class="frame__img"
+            src="pictures/baby.png"
+            alt="Sourabh as a baby"
+            loading="lazy"
+          />
+          <div class="frame__meta">
+            <div class="frame__age">The cutest baby boy</div>
+            <div class="frame__cap muted">Tiny legend energy.</div>
+          </div>
+        </article>
+        <article class="frame">
+          <img
+            class="frame__img"
+            src="pictures/dad.png"
+            alt="Sourabh with dad"
+            loading="lazy"
+          />
+          <div class="frame__meta">
+            <div class="frame__age">Dad's favorite</div>
+            <div class="frame__cap muted">That smile was already dangerous. This was 10 years ago</div>
+          </div>
+        </article>
+        <article class="frame">
+          <img
+            class="frame__img"
+            src="pictures/mom.png"
+            alt="Sourabh with mom"
+            loading="lazy"
+          />
+          <div class="frame__meta">
+            <div class="frame__age">Always a Mumma's boy</div>
+            <div class="frame__cap muted">The most adorable little boy</div>
+          </div>
+        </article>
+        <article class="frame">
+          <img
+            class="frame__img"
+            src="pictures/roohi.png"
+            alt="Sourabh age 16"
+            loading="lazy"
+          />
+          <div class="frame__meta">
+            <div class="frame__age">Best brother to akka</div>
+            <div class="frame__cap muted">Bond unbreakable</div>
+          </div>
+        </article>
+        <article class="frame">
+          <img
+            class="frame__img"
+            src="pictures/roohi.png"
+            alt="Sourabh age 16"
+            loading="lazy"
+          />
+          <div class="frame__meta">
+            <div class="frame__age">Grew up to be Roohi's best Mamma</div>
+            <div class="frame__cap muted">She loves to play with you</div>
+          </div>
+        </article>
+        <article class="frame">
+          <img
+            class="frame__img"
+            src="pictures/roohi.png"
+            alt="Sourabh age 16"
+            loading="lazy"
+          />
+          <div class="frame__meta">
+            <div class="frame__age">Today you are everyone's favorite</div>
+            <div class="frame__cap muted">Big guy. Same heart.</div>
+          </div>
+        </article>
+      </section>
+
+      
+    </main>
+
+    <script src="./timeline.js"></script>
+  </body>
+</html>
+

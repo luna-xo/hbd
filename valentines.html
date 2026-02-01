@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff4d6d" />
+    <title>Happy Valentine’s Day 💗</title>
+    <meta
+      name="description"
+      content="A pink & red love page made just for you."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=DM+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./valentines.css" />
+  </head>
+  <body>
+    <div class="v-bg" aria-hidden="true">
+      <div class="v-blob v-b1"></div>
+      <div class="v-blob v-b2"></div>
+      <div class="v-noise"></div>
+    </div>
+
+    <main class="v-wrap">
+      <header class="v-hero">
+        <button class="v-chip" type="button" onclick="window.close()">
+          ← Back
+        </button>
+        <p class="v-kicker">for you, from me</p>
+        <h1 class="v-title">
+          Happy Valentine’s Day,
+          <span id="vName">Sourabh</span>
+        </h1>
+        <p class="v-sub">
+          Pink skies, red hearts, and one very loved boy. You’re my favorite
+          notification, my safe place, and my happiest “what if”.
+        </p>
+      </header>
+
+      <section class="v-note" aria-label="Valentine message">
+        <div class="v-note-inner">
+          <div class="v-note-left">
+            <h2 class="v-h2">Dear Cookie,</h2>
+            <p id="vNote">
+              I don’t say this every day, but I hope you feel it every day:
+              you’re my person. Thank you for being with my heart, for
+              making me laugh and always listening to me, and for being the calm
+              in my mess. I choose you — on good days, on bad days, on all the
+              normal in-between days too.
+            </p>
+            <button class="v-btn" id="vCopy" type="button">Muahhhh💋</button>
+          </div>
+          <div class="v-note-right">
+            <div class="v-heart" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="v-gallery" aria-label="Valentine photos">
+        <h2 class="v-h2">Us, 1.5 years together 💗</h2>
+        <p class="v-gallery-sub muted">
+          Forever to go...❣️
+        </p>
+        <div class="v-grid v-grid--gallery">
+          <figure class="v-gcard">
+            <img
+              class="v-gimg"
+              src="pictures/us.png"
+              alt="Us together"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="v-gcard">
+            <img
+              class="v-gimg"
+              src="pictures/us2.png"
+              alt="Us together (photo 2)"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="v-gcard">
+            <img
+              class="v-gimg"
+              src="pictures/us3.png"
+              alt="Us together (photo 3)"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="v-gcard">
+            <img
+              class="v-gimg"
+              src="pictures/us4.png"
+              alt="Us together (photo 4)"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+        <figure class="v-gcard v-gcard--full">
+          <img
+            class="v-gimg v-gimg--full"
+            src="pictures/good1.png"
+            alt="Us"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+
+      <footer class="v-foot">
+        <p class="v-foot-text">
+          This page is a soft reminder: you are so loved. Today and always.
+        </p>
+      </footer>
+    </main>
+
+    <canvas id="vHearts"></canvas>
+
+    <script src="./valentines.js"></script>
+  </body>
+</html>
+

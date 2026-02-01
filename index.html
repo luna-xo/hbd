@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0f19" />
+    <title>Happy Birthday, Sourabh Shetty 🎂</title>
+    <meta
+      name="description"
+      content="A cute, aesthetic birthday page made with love."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=DM+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+
+    <div class="bg" aria-hidden="true">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="grid"></div>
+      <div class="noise"></div>
+    </div>
+
+    <header class="topbar">
+      <div class="topbar__inner">
+        <div class="brand">
+          <span class="brand__text" style="font-size: 24px;">🎂</span>
+        </div>
+        <div class="topbar__actions">
+          <a
+            class="chip chip--link"
+            href="./timeline.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open age timeline in a new tab"
+            title="Open timeline"
+          >
+            <span class="chip__icon" aria-hidden="true">⏳</span>
+            <span class="chip__text">Timeline</span>
+          </a>
+          
+          <button class="chip" id="toggleMode" type="button" aria-pressed="false">
+            <span class="chip__icon" aria-hidden="true">☾</span>
+            <span class="chip__text">Mood</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="content" class="page">
+      <section class="hero">
+        <div class="hero__content">
+          <p class="tag">
+            <span class="tag__pill">Today’s mission:</span>
+            <span class="tag__text">Make the birthday boy smile.</span>
+          </p>
+
+          <h1 class="headline">
+            Happy Birthday,
+            <span class="headline__name" id="name">Sourabh Shetty</span>
+          </h1>
+
+          <p class="subhead">
+            You’re officially
+            <span class="age" id="age">21</span>
+            today. I love you so much. I wish you all the fun and happiness this year.
+          </p>
+
+          <div class="ctaRow">
+            <button class="btn btn--primary" id="btnConfetti" type="button">
+              Pop the confetti
+            </button>
+            <button class="btn btn--ghost" id="btnOpenNote" type="button">
+              Open a note
+            </button>
+          </div>
+
+          <div class="stats" aria-label="Birthday stats">
+            <div class="stat">
+              <div class="stat__label">Aura</div>
+              <div class="stat__value">∞</div>
+            </div>
+            <div class="stat">
+              <div class="stat__label">Legendary moments</div>
+              <div class="stat__value">Daily</div>
+            </div>
+            <div class="stat">
+              <div class="stat__label">Friendship level</div>
+              <div class="stat__value">Max</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card" aria-hidden="true">
+          <div class="card3d">
+            <div class="card3d__glow"></div>
+            <div class="card3d__face">
+              <div class="card3d__top">
+                <span class="pill">Certified Good Guy</span>
+                <span class="pill pill--soft">Limited Edition</span>
+              </div>
+              <div class="card3d__mid">
+                <img
+                  class="card3d__img"
+                  src="pictures/image.png"
+                  alt="Birthday image"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card3d__bottom">
+                <span class="mono">ID: <span id="idCode">HB-ARV-2026</span></span>
+                <span class="mono">Status: <span class="ok">ACTIVE</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="section">
+        <div class="section__head">
+          <h2 class="h2">Hotshots</h2>
+          <p class="muted">
+            Some of your future looks.
+          </p>
+        </div>
+
+        <div class="hotshotsGrid" aria-label="Hotshots grid">
+          <figure class="hotshotCard">
+            <img class="hotshotCard__img" src="pictures/hotshot1.png" alt="Hotshot" loading="lazy" />
+            <figcaption class="mediaCap">My personal gym trainer💪🏻</figcaption>
+          </figure>
+          <figure class="hotshotCard">
+            <img class="hotshotCard__img" src="pictures/hotshot2.png" alt="Hotshot" loading="lazy" />
+            <figcaption class="mediaCap">Millionare CEO💼</figcaption>
+          </figure>
+          <figure class="hotshotCard">
+            <img class="hotshotCard__img" src="pictures/hotshot3.png" alt="Hotshot" loading="lazy" />
+            <figcaption class="mediaCap">Vacation mode💸</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__head">
+          <h2 class="h3">Lets see how you grew up...</h3>
+          <h2 class="h2">Childhood</h2>
+          <p class="muted">
+            Baby photos, school pics, old memories — the OG era.
+          </p>
+        </div>
+
+        <div class="mediaGrid" aria-label="Childhood photos grid">
+          <figure class="mediaCard">
+            <img
+              class="mediaReal"
+              src="pictures/child3.png"
+              alt="Sourabh as a child"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Throwback👀</figcaption>
+          </figure>
+          <figure class="mediaCard">
+            <img
+              class="mediaReal"
+              src="pictures/child5.png"
+              alt="Sourabh childhood photo"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Innocentttttt🥺🥺🥺</figcaption>
+          </figure>
+          <figure class="mediaCard">
+            <img
+              class="mediaReal"
+              src="pictures/child4.png"
+              alt="Sourabh childhood photo 2"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Little troublemaker👻</figcaption>
+          </figure>
+          <figure class="mediaCard">
+            <img
+              class="mediaReal"
+              src="pictures/child.png"
+              alt="Sourabh childhood photo 3"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Cool boy era😎</figcaption>
+          </figure>
+          <figure class="mediaCard">
+            <img
+              class="mediaReal"
+              src="pictures/child2.png"
+              alt="Sourabh childhood photo 3"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Mujhse shaadi karogi?😜</figcaption>
+          </figure>
+          <figure class="mediaCard">
+            <img
+              class="mediaReal"
+              src="pictures/child6.png"
+              alt="Sourabh childhood photo 3"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Ice creammm😋🍧</figcaption>
+          </figure>
+        </div> 
+      </section>
+
+      <section class="section">
+        <div class="section__head">
+          <h2 class="h2">Memory Lane(click below)</h2>
+          <p class="muted">
+            The things that scream “Sourabh”.
+          </p>
+        </div>
+
+        <div class="likesGrid" aria-label="Likes grid">
+          <!-- Set data-like-src to your video/image path, data-like-type to "video" or "image" -->
+          <button type="button" class="likeCard" data-like-title="Music" data-like-src="likes/music.mp4" data-like-type="video" aria-label="Open Music video">
+            <div class="likeIcon" aria-hidden="true">🎧</div>
+            <div>
+              <div class="likeTitle">Music</div>
+              <div class="muted likeText">Your playlist never misses.</div>
+            </div>
+          </button>
+          <button type="button" class="likeCard" data-like-title="Adventure" data-like-src="likes/adv.mp4" data-like-type="video" aria-label="Open Sport video">
+            <div class="likeIcon" aria-hidden="true">⚽</div>
+            <div>
+              <div class="likeTitle">Adventure</div>
+              <div class="muted likeText">Always thrilled for stunts</div>
+            </div>
+          </button>
+          <button type="button" class="likeCard" data-like-title="Concert" data-like-src="likes/concert.mp4" data-like-type="video" aria-label="Open Food video">
+            <div class="likeIcon" aria-hidden="true">🎸</div>
+            <div>
+              <div class="likeTitle">Concert</div>
+              <div class="muted likeText">Love is in the air💖</div>
+            </div>
+          </button>
+          <button type="button" class="likeCard" data-like-title="Gaming" data-like-src="likes/games.mp4" data-like-type="video" aria-label="Open Gaming video">
+            <div class="likeIcon" aria-hidden="true">🎮</div>
+            <div>
+              <div class="likeTitle">Games</div>
+              <div class="muted likeText">Competition is tough(x10).</div>
+            </div>
+          </button>
+          <button type="button" class="likeCard" data-like-title="Dance" data-like-src="likes/dance.mp4" data-like-type="video" aria-label="Open Coffee video">
+            <div class="likeIcon" aria-hidden="true">💃🏻</div>
+            <div>
+              <div class="likeTitle">Dance</div>
+              <div class="muted likeText">Pro hook-steps</div>
+            </div>
+          </button>
+          <button type="button" class="likeCard" data-like-title="Rides" data-like-src="likes/bike.mp4" data-like-type="video" aria-label="Open Rides video">
+            <div class="likeIcon" aria-hidden="true">🛵</div>
+            <div>
+              <div class="likeTitle">Rides</div>
+              <div class="muted likeText">Long drives & talks.</div>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__head">
+          <h2 class="h2">Cuteness alert</h2>
+          <p class="muted">
+            The cutest section with your best photos here.
+          </p>
+        </div>
+
+        <div class="coupleGrid" aria-label="Couple photos grid">
+          <figure class="mediaCard coupleCard">
+            <img
+              class="mediaReal"
+              src="pictures/cute1.png"
+              alt="That “we look too good” pic"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Dreamy eyes🤩</figcaption>
+          </figure>
+          <figure class="mediaCard coupleCard">
+            <img
+              class="mediaReal"
+              src="pictures/cute2.png"
+              alt="That “we look too good” pic"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Total Handsome vibe😎</figcaption>
+          </figure>
+          <figure class="mediaCard coupleCard">
+            <img
+              class="mediaReal"
+              src="pictures/cute4.png"
+              alt="That “we look too good” pic"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">Cute little👶🏻</figcaption>
+          </figure>
+          <figure class="mediaCard coupleCard">
+            <img
+              class="mediaReal"
+              src="./pictures/flower.png"
+              alt="These 100 flowers for you😘"
+              loading="lazy"
+            />
+            <figcaption class="mediaCap">These 100 flowers for you😘</figcaption>
+          </figure>
+        </div>
+
+        
+      </section>
+
+      <section class="section section--wide">
+        <div class="valIconWrap">
+          <a
+            class="valIcon"
+            href="./valentines.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open Valentine’s Day surprise"
+          >
+            <span class="valIcon__heart">♥</span>
+          </a>
+          <p class="muted valIcon__label">Tap the big heart</p>
+        </div>
+      </section>
+
+      <section class="section section--wide">
+        <div class="wish">
+          <div class="wish__left">
+            <h2 class="h2">Make a wish</h2>
+            <p class="muted">
+              Tap the candle, then make a wish. I won’t tell.
+            </p>
+          </div>
+          <button class="candle" id="candle" type="button">
+            <span class="candle__flame" aria-hidden="true"></span>
+            <span class="candle__body" aria-hidden="true"></span>
+            <span class="srOnly">Toggle candle</span>
+          </button>
+          <div class="wish__right">
+            <div class="toast" id="toast" role="status" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="muted">
+          Made with love by <span id="from">Daksha</span> •
+          <span class="mono" id="year"></span>
+        </p>
+      </footer>
+    </main>
+
+    <dialog class="modal likeModal" id="likeModal" aria-label="Like video or image">
+      <div class="likeModal__card">
+        <div class="likeModal__head">
+          <h2 class="likeModal__title" id="likeModalTitle">—</h2>
+          <button type="button" class="iconBtn likeModal__close" id="likeModalClose" aria-label="Close">✕</button>
+        </div>
+        <div class="likeModal__body" id="likeModalBody">
+          <!-- Video or image injected here by JS -->
+          <p class="muted likeModal__placeholder" id="likeModalPlaceholder">Add a video or image: set <code>data-like-src</code> and <code>data-like-type</code> on the card in index.html.</p>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="modal" id="noteModal">
+      <form method="dialog" class="modal__card">
+        <div class="modal__head">
+          <div>
+            <div class="modal__title">A note for you</div>
+            <div class="muted modal__sub">
+              Keep being you. It’s working.
+            </div>
+          </div>
+          <button class="iconBtn" value="close" aria-label="Close note">
+            ✕
+          </button>
+        </div>
+
+        <div class="modal__body">
+          <p class="note" id="noteText">
+            Puchu — happy birthday. I’m proud of you. You’ve been growing quietly,
+            winning loudly, and staying real through it all. This year: more
+            peace, more LOVE, more adventures, and even more reasons to smile.
+            Let’s celebrate properly on your big day my love.
+          </p>
+          <div class="modal__row">
+            <button class="btn btn--primary" id="btnCopy" type="button">
+              ILYSM💘
+            </button>
+            <button class="btn btn--ghost" value="close" type="submit">
+              Close
+            </button>
+          </div>
+        </div>
+      </form>
+    </dialog>
+
+    <audio id="bgMusic" preload="auto">
+      <!-- No external file needed: generated in JS when enabled -->
+    </audio>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
